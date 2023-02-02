@@ -14,6 +14,8 @@ func say(s string) {
 	}
 }
 func main() {
+	q := strconv.Quote("Hello, 世界")
+	fmt.Println(q)
 	go say("Hello")
 	go say("kettiy")
 	say("word")
